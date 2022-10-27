@@ -9,10 +9,9 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background: black;
         }
 
-        li,a,button{
+        li1,a3,button{
             font-family: "Poppins", sans-serif;
             font-weight: 500;
             font-size: 16px;
@@ -24,11 +23,15 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 30px 10%;
+            padding: 0px 0%;
         }
 
-        .logo{
+        .logo3{
             cursor: pointer;
+        }
+
+        nav {
+            background-color: black;
         }
 
         .nav_links{
@@ -40,11 +43,11 @@
             padding: 0 20px;
         }
 
-        .nav_links li, a{
+        .nav_links li, a3{
             transition-property: all .3s ease 0s;
         }
 
-        .nav_links li, a:hover{
+        .nav_links li, a3:hover{
             color: red;
         }
 
@@ -66,15 +69,17 @@
 
 <body>
     <header>
-        <img class="logo" src="" alt="">
-        <nav>
+        <img class="logo3" src="" alt="">
+        <nav class="nav">
             <ul class="nav_links">
-                <li><a href="#">Homepage</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Threads</a></li>
+                <li><a3 href="#">Homepage</a3></li>
+                <li><a3 href="#">Profile</a3></li>
+                <li><a3 href="#">Threads</a3></li>
             </ul>
+            <a class="cta" href='login.html'><button>Login</button></a>
+
         </nav>
-        <a class="cta" href="#"><button>Login</button></a>
+<!--        <a class="cta" href='login.html'><button>Login</button></a>-->
     </header>
 </body>
 </html>
